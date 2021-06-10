@@ -5,12 +5,7 @@
 ```sh
 brew install binutils
 ```
-パスが通らない場合
-```sh
-brew list binutils
-echo export PATH="/opt/homebrew/Cellar/binutils/{binutilsのバージョン}/bin:$PATH" > ~/.zshrc
-source ~/.zshrc
-```
+
 [Homebrew で macOS に GNU コマンドをインストールする](https://yu8mada.com/2018/07/25/install-gnu-commands-on-macos-with-homebrew/)
 
 
